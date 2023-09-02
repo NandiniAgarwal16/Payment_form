@@ -1,0 +1,93 @@
+header{
+    width: 100vw;/*view width*/
+    min-height: 100vh; /*view heught*/
+    background: #34495e;
+    font:  4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.container
+{
+    background: white;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    padding: 1.5rem 2.5rem;
+}
+.left
+{
+    width: 50%; 
+   
+}
+.right
+{
+    width:45%;
+    
+}
+form{
+    padding: 1rem;
+    margin:1rem;
+}
+h3{
+    margin-top: 1rem;
+    color:#2c3e50;
+}
+ input[type="text"]
+{
+    width:100%;
+   /* padding:0.5rem 1rem;*/
+    margin:0.5rem 0.2rem;
+    padding:0.5rem 0.7rem;
+    outline:none;
+
+}
+#zip
+{
+    padding:0.5rem;
+    
+}
+#zip select{
+    cursor:pointer;
+    padding:0.5rem 0.8rem;
+}
+#zip input[type="number"]
+{
+    padding:0.5rem 0.7rem;
+}
+ input[type="date"]
+{
+    width:100%;
+    padding:0.5rem 0.7rem;
+    margin:0.5rem 0;
+    outline:none;
+
+}
+
+input[type="Submit"]
+{
+    width:100%;
+    height: auto;
+    padding:0.7rem 1.5rem;
+    background:#34495e;
+    color:white;
+    border:none;
+    margin-top:1rem;
+    outline:none;
+    cursor:pointer;
+    align-self: self-start;
+}
+ 
+
+input[type="Submit"]:hover
+{
+    background:green;
+}
+@media only screen and (max-width:770px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
